@@ -1,0 +1,69 @@
+## Arquivos gerados e pastas de build (bin/obj)
+[Bb]in/
+[Oo]bj/
+# Ignora pastas de bin/obj em subprojetos recursivamente
+**/[Bb]in/
+**/[Oo]bj/
+
+## Pastas de publicacao
+[Pp]ublish/
+[Pp]ublished/
+**/[Pp]ublish/
+**/[Pp]ublished/
+
+## Arquivos de configuracao do Visual Studio
+.vs/
+.vscode/
+**/.vs/
+**/.vscode/
+*.user
+*.suo
+*.userossc
+*.sln.docstates
+**/*.user
+**/*.suo
+**/*.userossc
+**/*.sln.docstates
+
+## Pacotes NuGet
+*.nupkg
+**/*.nupkg
+# Se você nao versiona a pasta packages, mas prefere a abordagem de "restore"
+packages/
+**/packages/
+# Ignora caches de pacotes
+project.assets.json
+project.nuget.cache
+
+## Arquivos de projetos, caches e relatorios
+*.csproj.DotSettings
+.idea/
+*.sln.iml
+*.suo
+*.ide
+*.sln.ide
+*.user
+*.userossc
+*.docstates
+
+## Arquivos de Log e Testes
+*.log
+**/og
+*.trx
+*.coverage
+*.runsettings
+
+## Arquivos de configuracao de ambiente (Seguranca)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+*.local.settings.json
+secrets.json
+
+## Outros
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.DS_Store
+**/.DS_Store
