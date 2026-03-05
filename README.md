@@ -1,1 +1,1 @@
-# Curso de C# Essecial
+# Curso de C# Essencial
