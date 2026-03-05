@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposDeDados2", "TiposDeDad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposDeDados3", "TiposDeDados3\TiposDeDados3.csproj", "{9450DAD5-F40B-4C96-AB62-C4CF262967AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposDeDados4", "TiposDeDados4\TiposDeDados4.csproj", "{65060260-1F49-4464-A143-2DD55369162B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoDateTime1", "TipoDateTime1\TipoDateTime1.csproj", "{DD119B04-5AB6-483B-A0BE-99FC2C6DA5DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{9450DAD5-F40B-4C96-AB62-C4CF262967AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9450DAD5-F40B-4C96-AB62-C4CF262967AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9450DAD5-F40B-4C96-AB62-C4CF262967AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65060260-1F49-4464-A143-2DD55369162B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65060260-1F49-4464-A143-2DD55369162B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65060260-1F49-4464-A143-2DD55369162B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65060260-1F49-4464-A143-2DD55369162B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD119B04-5AB6-483B-A0BE-99FC2C6DA5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD119B04-5AB6-483B-A0BE-99FC2C6DA5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD119B04-5AB6-483B-A0BE-99FC2C6DA5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD119B04-5AB6-483B-A0BE-99FC2C6DA5DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
