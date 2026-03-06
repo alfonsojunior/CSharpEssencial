@@ -102,3 +102,53 @@ dotnet build --force
 dotnet build <nome projeto>.csproj
 Ex: dotnet build AppConsole/AppConsole.csproj
 ```
+
+### Publicar uma API autoinicializável em um executável único (utilizar servidor Kestrel)
+```powershell
+dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+```
+
+### Criação de um projeto de uma Web API Minimal
+```powershell
+dotnet new webapi -o <nome projeto> --use-minimal-apis
+Ex: dotnet new webapi -o ApiMinimal --use-minimal-apis
+```
+
+### Instalação global do Entity Framework versão 8
+```powershell
+dotnet tool install --global dotnet-ef --version 8.*
+```
+
+### Instalação global do Entity Framework Core
+```powershell
+dotnet tool install --global dotnet-ef-core --version 6.*
+```
+
+### Criar uma migração do Entity Framework
+```powershell
+dotnet ef migrations add <nome migração>
+Ex: dotnet ef migrations add Initial
+```
+
+### Atualizar/Executar as migrações no banco de dados
+```powershell
+dotnet ef database update
+```
+
+### Atualizar as migrações até uma determinada migração
+```powershell
+dotnet ef migrations update <nome migração>
+Ex: dotnet ef migrations update Initial
+```
+
+### Voltar a versão para uma migração
+```powershell
+dotnet ef migrations revert <nome migração>
+Ex: dotnet ef migrations revert Initial
+```
+
+### Exportar e executar uma migração em um cliente/produção
+```powershell
+dotnet ef database export <nome migração>
+Ex: dotnet ef database export Initial
+```
